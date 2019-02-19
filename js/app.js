@@ -156,7 +156,7 @@ class UI {
     const categoryID = parseInt(searchCategory.value);
 
     if(city === '' || categoryID === 0){
-      ui.showFeedback('Please enter a city and select category')
+      ui.showFeedback('Please enter a valid city and select a category')
     }    
     else {
       // Logic goes here
